@@ -12,7 +12,7 @@ def extract_text_from_pdf(pdf_file_path):
     except Exception as e:
         return f"Error extracting text: {e}"
     
-pdf_path = "Landon-Hotel.pdf"
+pdf_path = "sairesume.pdf"
 extracted_text = extract_text_from_pdf(pdf_path)
 
 file = open("pdf_text", "w", encoding='utf-8')
