@@ -16,4 +16,5 @@ pdf_path = "sairesume.pdf"
 extracted_text = extract_text_from_pdf(pdf_path)
 
 file = open("pdf_text", "w", encoding='utf-8')
+
 file.write(extracted_text)
